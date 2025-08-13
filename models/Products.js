@@ -33,7 +33,8 @@ class Products {
 
   productInfo(data) {
     const { name, price, id } = data;
-    const infoJsx = `<div>
+    const infoJsx = `
+    <div id="product-info">
       <h3>${name}</h3>
       <div>
         <span>${price}</span>
